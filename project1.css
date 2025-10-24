@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url("premium_photo-1710965559973-830776a7af74.avif") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.signupbox {
+    background: rgba(0, 0, 0, 0.6);
+    width: 350px;
+    padding: 40px 30px;
+    border-radius: 12px;
+    margin: 8% auto;
+    color: white;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.signupbox h2 {
+    margin-bottom: 25px;
+    font-size: 28px;
+    color: #ff4d4d;
+}
+
+.signupbox input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid white;
+    background: transparent;
+    font-size: 16px;
+    color: white;
+    outline: none;
+    transition: 0.3s;
+}
+
+.signupbox input:focus {
+    border-bottom: 2px solid #ff4d4d;
+    color: #ffcccc;
+}
+
+.signupbox button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: #ff4d4d;
+    color: white;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+
+.signupbox button:hover {
+    background: #cc0000;
+}
+
+.signupbox .link {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.signupbox .link a {
+    color: #ff4d4d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signupbox .link a:hover {
+    text-decoration: underline;
+}
