@@ -1,0 +1,250 @@
+/* General styles */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background: #0078d7;
+    color: white;
+    padding: 25px 0;
+    font-size: 1.5em;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background: #0078d7;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+/* Home Page */
+
+.home-content {
+    margin-top: 100px;
+}
+
+.home-content p {
+    font-size: 1.2em;
+    width: 80%;
+    margin: 0 auto 40px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.main-btn {
+    background: #0078d7;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: 0.3s;
+}
+
+.main-btn:hover {
+    background: #005fa3;
+}
+
+
+/* About Page */
+
+.about-section {
+    margin: 50px auto;
+    width: 80%;
+}
+
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    color: #0078d7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* Contact Page */
+
+.contact-section {
+    margin: 50px auto;
+    width: 70%;
+    text-align: left;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+button {
+    background: #0078d7;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #005fa3;
+}
+
+
+/* General styles */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background: #0078d7;
+    color: white;
+    padding: 25px 0;
+    font-size: 1.5em;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background: #0078d7;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+/* Home Page */
+
+.home-content {
+    margin-top: 100px;
+}
+
+.home-content p {
+    font-size: 1.2em;
+    width: 80%;
+    margin: 0 auto 40px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.main-btn {
+    background: #0078d7;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: 0.3s;
+}
+
+.main-btn:hover {
+    background: #005fa3;
+}
+
+
+/* About Page */
+
+.about-section {
+    margin: 50px auto;
+    width: 80%;
+}
+
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    color: #0078d7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* Contact Page */
+
+.contact-section {
+    margin: 5% auto;
+    width: 50%;
+    text-align: left;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+button {
+    background: #0078d7;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #005fa3;
+}
+
+.about-section {
+    .p {
+        text-align: left;
+    }
+}
